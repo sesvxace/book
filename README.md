@@ -1,4 +1,4 @@
-book
+Window_Book
 ====
 
-Window_Book provides a parent class for multi-page windows, with a focus on those used to display information.
+This script is essentially a scripter's resource, but it has been optimized for use by those with little-to-no experience in scripting. It provides a parent class for multi-page windows, with a focus on those used to display information (though it is also possible, with some additions, to include pages with selectable areas). Its write_page_text method draws text in a similar manner to the draw_text_ex method, allowing you to use any control character that you would normally use in game text (with the exception of those that control timing). Further down, I have included a tutorial on creating a basic guide to a game's controls as an example of a simple use of the script. By reading the tutorial, a non-scripter can learn how to easily create and call a book window. I had a non-scripter friend try it out, and within ten minutes they had written a functional battle guide. Try it out and see what you can make!
